@@ -12,11 +12,32 @@ class Bookmarks extends React.Component {
   render() {
     return (
       <div>
-        <p>Bookmarks</p>
-        <div className='card'>
-          <p>BazaIT</p>
-          <img src={logo} />
-          <p>JS developer</p>
+        <h3>There are your bookmarks</h3>
+        <div className='all__cards'>
+          <div className='card'>
+            <h4>BazaIT</h4>
+            <img src={logo} />
+            <p>JS developer</p>
+            <button className='btn btn-warning' onClick={this.ignore}>Delete</button>
+          </div>
+          <div className='card'>
+            <h4>BazaIT</h4>
+            <img src={logo} />
+            <p>JS developer</p>
+            <button className='btn btn-warning' onClick={this.ignore}>Delete</button>
+          </div>
+          <div className='card'>
+            <h4>BazaIT</h4>
+            <img src={logo} />
+            <p>JS developer</p>
+            <button className='btn btn-warning' onClick={this.ignore}>Delete</button>
+          </div>
+          <div className='card'>
+            <h4>BazaIT</h4>
+            <img src={logo} />
+            <p>JS developer</p>
+            <button className='btn btn-warning' onClick={this.ignore}>Delete</button>
+          </div>
         </div>
       </div>
     );

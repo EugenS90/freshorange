@@ -1,5 +1,27 @@
+.all__cards{
+  display: flex;
+}
 .card {
   max-width: 250px;
   max-height: 250px;
+  border: 1px solid  #757575 ;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  box-shadow: 0 0 10px #757575;
 }
+img{
+  width: 100px;
+  margin: 10px auto;
+}
+.card p{
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+}
+.card .btn{
+  color: #757575;
+  margin: 10px auto;
+  width: 100px;
+}
+
 

@@ -9,6 +9,7 @@ class Comments extends React.Component {
 
     return (
       <div>
+        <h3>There are comments about your CV</h3>
         <Collapsible trigger="Показать сообщение от компании Siemens">
           <p>Добрый день! Мы рассмотрели Ваше резюме</p>
           <p>Однако нам хотелось бы, что бы Вы также имели навыки работы с фреймворком Vue.js.

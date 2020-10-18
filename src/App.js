@@ -22,16 +22,18 @@ class App extends React.Component {
         <div className="container">
           <h1>Analitics</h1>
           <hr />
-          <nav>
-            <ul>{Object.keys(par).map(elem => <li> <a href={elem}>{par[elem]} </a></li>)}</ul>
-          </nav>
-          <Switch>
-            <Route exact path='/bookmarks' component={Bookmarks} />
-            <Route exact path='/comments' component={Comments} />
-            <Route exact path='/recomended' component={Recomended} />
-            <Route exact path='/responce' component={Responce} />
-            <Route exact path='/views' component={Views} />
-          </Switch>
+          <div className='d-flex justify-content-beetwen'>
+            <nav>
+              <ul>{Object.keys(par).map(elem => <li> <a href={elem}>{par[elem]} </a></li>)}</ul>
+            </nav>
+            <Switch>
+              <Route exact path='/bookmarks' component={Bookmarks} />
+              <Route exact path='/comments' component={Comments} />
+              <Route exact path='/recomended' component={Recomended} />
+              <Route exact path='/responce' component={Responce} />
+              <Route exact path='/views' component={Views} />
+            </Switch>
+          </div>
         </div>
       </Router>
     );

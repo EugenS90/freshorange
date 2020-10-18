@@ -1,3 +1,24 @@
+
 ul li {
   list-style: none;
+  margin-right: 50px;
+}
+
+ul li a{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  color: #757575;
+  font-size: 20px;
+}
+
+ul li a:hover{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
 }
